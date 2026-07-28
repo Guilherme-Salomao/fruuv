@@ -1,0 +1,69 @@
+.fruuv-header {
+  background-color: #173f35;
+}
+
+.fruuv-header .navbar {
+  min-height: 90px;
+  padding: 1rem 0;
+}
+
+.fruuv-header .navbar-brand,
+.fruuv-header .nav-link {
+  color: #ffffff;
+}
+
+.fruuv-header .navbar-brand {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.fruuv-header .nav-link {
+  font-size: 1.1rem;
+  padding: 0.75rem 1rem;
+}
+
+.fruuv-header .nav-link:hover,
+.fruuv-header .nav-link.active {
+  color: #f8c630;
+}
+
+.fruuv-header .btn {
+  font-size: 1.05rem;
+  padding: 0.65rem 1.25rem;
+}
+
+.fruuv-header .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.fruuv-header .navbar-toggler-icon {
+  filter: invert(1);
+}
+.fruuv-info-bar {
+  background-color: #f8c630;
+  color: #173f35;
+}
+
+.fruuv-info-bar__content {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.fruuv-info-bar__content span {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  .fruuv-info-bar__content {
+    min-height: auto;
+    padding: 0.75rem 0;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
